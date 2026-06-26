@@ -1076,19 +1076,11 @@ footer{
 }
 section{
 
-    opacity:0;
-
-    transform:translateY(60px);
-
-    transition:all .8s ease;
-
-}
-
-section.show{
-
     opacity:1;
 
-    transform:translateY(0);
+    transform:none;
+
+    transition:all .8s ease;
 
 }
 /* ================= MOBILE RESPONSIVE ================= */
