@@ -1089,25 +1089,46 @@ section{
 
     .navbar{
 
-        flex-direction:column;
+    flex-direction:row;
 
-        height:auto;
+    flex-wrap:wrap;
 
-        padding:20px;
+    justify-content:center;
 
-        gap:20px;
+    align-items:center;
 
-    }
+    height:auto;
+
+    padding:10px 15px;
+
+    gap:10px;
+
+}
 
     .nav-links{
 
-        flex-wrap:wrap;
+    flex-wrap:wrap;
 
-        justify-content:center;
+    justify-content:center;
 
-        gap:15px;
+    gap:10px;
 
-    }
+    font-size:14px;
+
+}
+.logo{
+
+    font-size:22px;
+
+}
+
+.resume-btn{
+
+    padding:8px 16px;
+
+    font-size:14px;
+
+}
 
     .hero{
 
