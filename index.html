@@ -5,9 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Shanmukha Nihal Reddy | Portfolio</title>
+    <title>Nihal reddy's Portfolio</title>
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
 </head>
 
 <body>
@@ -31,14 +34,14 @@
     <li><a href="#skills">Skills</a></li>
 
     <li><a href="#projects">Projects</a></li>
+    <li><a href="#certificates">Certificates</a></li>
 
     <li><a href="#contact">Contact</a></li>
 
 </ul>
-            </ul>
 
             <a href="assets/resume/resume.pdf" class="resume-btn">
-                Resume
+                <i class="fa-solid fa-file-arrow-down"></i> Resume
             </a>
 
         </nav>
@@ -53,7 +56,7 @@
         <p class="intro">Hello, I'm</p>
 
         <h1>
-            Shanmukha
+           Nareddy Shanmukha
             <span>Nihal Reddy</span>
         </h1>
 
@@ -89,7 +92,7 @@
             <img src="assets/images/profile.jpeg"
                  alt="Profile Photo">
 
-            <h3>Shanmukha Nihal Reddy</h3>
+            <h3>Nareddy Shanmukha Nihal Reddy</h3>
 
             <p>CSE(AI & Data Science) Student</p>
 
@@ -130,19 +133,19 @@
         <div class="about-cards">
 
             <div class="card">
-                <h3>🎓 Education</h3>
+                <i class="fa-solid fa-graduation-cap"></i> Education
                 <p>B.Tech CSE (AI & DS)</p>
-                <p>CGPA: 8.63</p>
+                <p>CGPA: 8.63/10</p>
             </div>
 
             <div class="card">
-                <h3>💼 Internship</h3>
+               <i class="fa-solid fa-briefcase"></i> Internship
                 <p>Worked as Machine Learning Intern</p>
                 <p>Innolift Ventures</p>
             </div>
 
             <div class="card">
-                <h3>📚 Currently Learning</h3>
+                <i class="fa-solid fa-laptop-code"></i> Currently Learning
                 <p>Java</p>
                 <p>Python</p>
                 <p>Flask</p>
@@ -154,11 +157,6 @@
     </div>
 
 </section>
-    <script src="script.js"></script>
-
-</body>
-
-</html>
 <!-- ================= SKILLS ================= -->
 
 <section class="skills" id="skills">
@@ -223,7 +221,7 @@
         <div class="project-content">
 
             <span class="project-number">01</span>
-
+            <span class="status deployed">Deployed</span>
             <h3>Customer Churn Prediction System</h3>
 
             <p class="project-desc">
@@ -266,7 +264,265 @@
 
             <div class="project-buttons">
 
-                <a href="http://github.com/NSNihalreddy/VELTECH-SUMMER-INTERNSHIP-/tree/main/Innolift%20Ventures/Customer-Churn-Prediction-System" target="_blank">GitHub</a>
+    <a href="https://github.com/NSNihalreddy/VELTECH-SUMMER-INTERNSHIP-/tree/main/Innolift%20Ventures/Customer-Churn-Prediction-System"
+       target="_blank"
+       class="github-btn">
+        <i class="fa-brands fa-github"></i> GitHub
+    </a>
+
+    <a href="https://ecommerce-churn-predictor-i4ai.onrender.com"
+       target="_blank"
+       class="web-btn">
+        <i class="fa-solid fa-globe"></i> Live Demo
+    </a>
+
+</div>
+
+</div>
+        </div>
+
+    </div>
+
+<!-- Project 2 -->
+
+<div class="project-card reverse">
+
+    <div class="project-image">
+
+        <img src="assets/images/plant.png" alt="Plant Disease Detection">
+
+    </div>
+
+    <div class="project-content">
+
+        <span class="project-number">02</span>
+        <span class="status academic">Academic Project</span>
+        <h3>Plant Disease Detection using Machine Learning</h3>
+
+        <p class="project-desc">
+
+            Developed a deep learning-based application that detects plant diseases
+            from leaf images using Convolutional Neural Networks (CNN). The system
+            helps farmers identify diseases early and provides suitable prevention
+            methods to improve crop health and reduce losses.
+
+        </p>
+
+        <h4>Key Features</h4>
+
+        <ul>
+
+            <li>Leaf image classification using CNN</li>
+
+            <li>Disease prediction from uploaded images</li>
+
+            <li>Disease information and preventive measures</li>
+
+            <li>Supports smart agriculture applications</li>
+
+            <li>Simple and user-friendly workflow</li>
+
+        </ul>
+
+        <div class="tech-stack">
+
+            <span>Python</span>
+            <span>TensorFlow</span>
+            <span>CNN</span>
+            <span>OpenCV</span>
+            <span>NumPy</span>
+
+        </div>
+
+    </div>
+
+</div>
+<!-- ================= PROJECT 3 ================= -->
+
+<div class="project-card">
+
+    <div class="project-image">
+        <img src="assets/images/irrigation.png" alt="Smart Drip Irrigation System">
+    </div>
+
+    <div class="project-content">
+
+        <span class="project-number">03</span>
+        <span class="status hardware">Hardware Project</span>
+        <h3>Smart Drip Irrigation System</h3>
+
+        <p class="project-desc">
+            Designed and developed an Arduino-based smart irrigation system that
+            automatically monitors soil moisture levels and controls water supply.
+            The system helps reduce water wastage and supports efficient irrigation
+            using affordable hardware components.
+        </p>
+
+        <h4>Key Features</h4>
+
+        <ul class="feature-list">
+            <li>Automatic irrigation based on soil moisture</li>
+            <li>Real-time soil moisture monitoring</li>
+            <li>Water-saving automation</li>
+            <li>Buzzer alert for dry soil</li>
+            <li>Low-cost and easy-to-build hardware solution</li>
+        </ul>
+
+        <div class="tech-stack">
+
+            <span>Arduino UNO</span>
+            <span>Moisture Sensor</span>
+            <span>Buzzer</span>
+            <span>Breadboard</span>
+            <span>Jumper Wires</span>
+
+        </div>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+<!-- ================= PROJECT 4 ================= -->
+
+<div class="project-card reverse">
+
+    <div class="project-image">
+        <img src="assets/images/student.png" alt="Student Registration System">
+    </div>
+
+    <div class="project-content">
+
+        <span class="project-number">04</span>
+        <span class="status development">Demo project</span>
+        <h3>Student Registration System</h3>
+
+        <p class="project-desc">
+            Developed a responsive Student Registration System using Flask and SQLite
+            to efficiently manage student records. The application supports adding,
+            viewing, updating, and deleting student information through an intuitive
+            web interface.
+        </p>
+
+        <h4>Key Features</h4>
+
+        <ul class="feature-list">
+
+            <li>Student Registration & Record Management</li>
+
+            <li>Department-wise Student Information</li>
+
+            <li>Add, Edit and Delete Records</li>
+
+            <li>SQLite Database Integration</li>
+
+            <li>Responsive Flask Web Interface</li>
+
+        </ul>
+
+        <div class="tech-stack">
+
+            <span>Python</span>
+            <span>Flask</span>
+            <span>SQLite</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+
+        </div>
+
+        <div class="project-buttons">
+
+            <a href="https://github.com/NSNihalreddy/VELTECH-SUMMER-INTERNSHIP-/tree/main/Innolift%20Ventures/student%20registration%20demo%20project"
+               target="_blank"
+               class="github-btn">
+
+               <i class="fa-brands fa-github"></i> GitHub
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+</section>
+
+<!-- ================= CERTIFICATES ================= -->
+
+<section class="certificates" id="certificates">
+
+    <h2 class="section-title">Achievements & Certifications</h2>
+
+    <p class="section-subtitle">
+        Certifications, internship achievements, and extracurricular participation.
+    </p>
+
+    <div class="certificate-grid">
+
+        <!-- Internship -->
+
+        <div class="certificate-card">
+
+            <img src="assets/certificates/certificate.png" alt="Internship Certificate">
+
+            <div class="certificate-content">
+
+                <h3>Summer Internship</h3>
+
+                <p>Innolift Ventures</p>
+
+                <span>2026</span>
+
+                <a href="assets/certificates/certificate.png" target="_blank">
+                    View Certificate
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Hackathon -->
+
+        <div class="certificate-card">
+
+            <img src="assets/certificates/hackathon.jpeg" alt="Hackathon">
+
+            <div class="certificate-content">
+
+                <h3>Hackathon Participation</h3>
+
+                <p>EDIZIAL 2.0 Event</p>
+
+                <span>2026</span>
+
+                <a href="assets/certificates/hackathon.jpeg" target="_blank">
+                    View Certificate
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Tantraz -->
+
+        <div class="certificate-card">
+
+            <img src="assets/certificates/tantraz.jpeg" alt="Tantraz">
+
+            <div class="certificate-content">
+
+                <h3>Non-Technical  Event</h3>
+
+                <p>TANTRAZ 2K26 Event</p>
+
+                <span>2026</span>
+
+                <a href="assets/certificates/tantraz.jpeg" target="_blank">
+                    View Certificate
+                </a>
 
             </div>
 
@@ -275,3 +531,81 @@
     </div>
 
 </section>
+<!-- ================= CONTACT ================= -->
+
+<section class="contact" id="contact">
+
+    <h2 class="section-title">Let's Connect</h2>
+
+    <p class="section-subtitle">
+        I'm always open to discussing internships, projects, and new opportunities.
+    </p>
+
+    <div class="contact-container">
+
+        <div class="contact-card">
+
+            <h3><i class="fa-solid fa-envelope"></i> Email</h3>
+            <p>nareddynihalreddy@gmail.com</p>
+
+        </div>
+
+        <div class="contact-card">
+
+            <h3><i class="fa-brands fa-linkedin"></i> LinkedIn</h3>
+
+            <a href="https://www.linkedin.com/in/shanmukha-nihal-reddy-nareddy-a125a6364" target="_blank">
+                View Profile
+            </a>
+
+        </div>
+
+        <div class="contact-card">
+
+            <h3><i class="fa-brands fa-github"></i> GitHub</h3>
+
+            <a href="https://github.com/NSNihalreddy" target="_blank">
+                Visit GitHub
+            </a>
+
+        </div>
+
+        <div class="contact-card">
+
+            <h3><i class="fa-solid fa-location-dot"></i> Location</h3>
+
+            <p>Pragadavaram,Andhra Pradesh, India</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <p>© 2026 Shanmukha Nihal Reddy. All Rights Reserved.</p>
+
+    <div class="footer-links">
+
+        <a href="https://github.com/NSNihalreddy" target="_blank">
+            <i class="fa-brands fa-github"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/shanmukha-nihal-reddy-nareddy-a125a6364" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+
+    </div>
+
+</footer>
+<button id="backToTop">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
